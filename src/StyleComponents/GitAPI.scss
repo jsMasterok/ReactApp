@@ -1,0 +1,17 @@
+.Git-position {
+    top: 0;
+    right: 0;
+}
+
+.Git-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    & > li {
+        cursor: pointer;
+    }
+}
